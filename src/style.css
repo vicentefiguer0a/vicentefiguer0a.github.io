@@ -1,0 +1,76 @@
+/*===================MOBILE MEDIA QUERY==================*/
+@media screen and (max-width: 767px) {
+    #terminal-gif {
+        height: 200px;
+        width: 400px;
+        margin-top: 2em;
+    }
+
+    #bio {
+        width: 100%;
+    }
+}
+
+body {
+    color: #FFF;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ul {
+    list-style: none;
+}
+/*==========================MAIN CONTENT CSS===========================*/
+main {
+    margin: 2em 1em;
+}
+
+.name-occupation {
+    margin-left: 1em;
+}
+
+.bio {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+}
+
+#main-line {
+    width: 80%;
+    opacity: .2;
+    margin: auto;
+}
+
+#contact-me {
+    margin-top: 3em;
+}
+
+/*======================FOOTER CSS========================*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 3em;
+}
+
+#copyright-mark {
+    font-size: small;
+}
+
+#footer-social {
+}
