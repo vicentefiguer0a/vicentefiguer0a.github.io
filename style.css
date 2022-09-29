@@ -1,15 +1,38 @@
-/*===================MOBILE MEDIA QUERY==================*/
-@media screen and (max-width: 767px) {
+/*===================MOBILE LG MEDIA QUERY==================*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
     #terminal-gif {
         height: 200px;
         width: 400px;
-        margin-top: 2em;
+        margin-top: 1em;
     }
 
-    #bio {
+    .bio {
         width: 100%;
     }
 }
+
+/*===================MOBILE MD MEDIA QUERY==================*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    #terminal-gif {
+        height: 200px;
+        width: 340px;
+        margin-top: 1em;
+    }
+}
+
+/*===================MOBILE SM MEDIA QUERY==================*/
+
+@media screen and (max-width: 374px) {
+    #terminal-gif {
+        height: 200px;
+        width: 300px;
+        margin-top: 1em;
+    }
+}
+
+/*===================END OF MEDIA QUERIES==================*/
 
 body {
     color: #FFF;
@@ -27,17 +50,24 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: lime;
+}
+
 
 ul {
+    padding: 0;
     list-style: none;
 }
+
 /*==========================MAIN CONTENT CSS===========================*/
+
 main {
     margin: 2em 1em;
 }
 
 .name-occupation {
-    margin-left: 1em;
+    text-align: center;
 }
 
 .bio {
@@ -50,7 +80,7 @@ main {
 }
 
 #main-line {
-    width: 80%;
+    width: 90%;
     opacity: .2;
     margin: auto;
 }
@@ -60,17 +90,27 @@ main {
 }
 
 /*======================FOOTER CSS========================*/
+
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1em 3em;
+    margin: 1em 2em;
 }
 
 #copyright-mark {
     font-size: small;
 }
 
-#footer-social {
+/*========================ICON SIZES========================*/
+
+.main-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.footer-icon {
+    height: 15px;
+    width: 15px;
 }
