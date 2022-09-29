@@ -1,57 +1,3 @@
-/*===================MOBILE LG MEDIA QUERY==================*/
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-    #terminal-gif {
-        height: 200px;
-        width: 400px;
-        margin-top: 1em;
-    }
-
-    .bio {
-        width: 100%;
-    }
-
-    .about-header {
-        border-bottom: solid 2px lime;
-        width: 125px;
-        padding-bottom: 1px;
-    }
-}
-
-/*===================MOBILE MD MEDIA QUERY==================*/
-
-@media screen and (min-width: 375px) and (max-width: 424px) {
-    #terminal-gif {
-        height: 200px;
-        width: 340px;
-        margin-top: 1em;
-    }
-
-    .about-header {
-        border-bottom: solid 2px lime;
-        width: 125px;
-        padding-bottom: 1px;
-    }
-}
-
-/*===================MOBILE SM MEDIA QUERY==================*/
-
-@media screen and (max-width: 374px) {
-    #terminal-gif {
-        height: 200px;
-        width: 300px;
-        margin-top: 1em;
-    }
-
-    .about-header {
-        border-bottom: solid 2px lime;
-        width: 125px;
-        padding-bottom: 1px;
-    }
-}
-
-/*===================END OF MEDIA QUERIES==================*/
-
 body {
     color: #FFF;
 }
@@ -78,6 +24,13 @@ ul {
     list-style: none;
 }
 
+#terminal-gif {
+    height: 240px;
+    width: 500px;
+    margin-top: 1em;
+}
+
+
 /*==========================MAIN CONTENT CSS===========================*/
 
 main {
@@ -90,10 +43,6 @@ main {
 
 .bio {
     margin-top: 2em;
-    text-align: center;
-}
-
-.quote {
     text-align: center;
 }
 
@@ -132,3 +81,166 @@ footer{
     height: 15px;
     width: 15px;
 }
+
+/*===================MOBILE SM MEDIA QUERY==================*/
+
+@media screen and (max-width: 374px) {
+    #terminal-gif {
+        height: 200px;
+        width: 300px;
+        margin-top: 1em;
+    }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 125px;
+        padding-bottom: 1px;
+    }
+
+    .quote {
+        text-align: center;
+    }
+
+    #contact-me {
+        margin-left: 1em;
+    }
+}
+
+/*===================MOBILE MD MEDIA QUERY==================*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    #terminal-gif {
+        height: 200px;
+        width: 340px;
+        margin-top: 1em;
+    }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 125px;
+        padding-bottom: 1px;
+    }
+
+    .quote {
+        text-align: center;
+    }
+
+    #contact-me {
+        margin-left: 1em;
+    }
+}
+
+/*===================MOBILE LG MEDIA QUERY==================*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    #terminal-gif {
+        height: 200px;
+        width: 400px;
+        margin-top: 1em;
+    }
+
+    .bio {
+        /*width: 100%;*/
+    }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 125px;
+        padding-bottom: 1px;
+    }
+
+    .quote {
+        text-align: center;
+    }
+
+    #contact-me {
+        margin-left: 1em;
+    }
+}
+
+/*===================TABLET MEDIA QUERY==================*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #terminal-gif {
+        height: 240px;
+        width: 500px;
+        margin-top: 1em;
+    }
+
+    .bio {
+        padding: 0 5em;
+    }
+
+    .quote {
+        text-align: center;
+    }
+
+    #contact-me {
+        margin-left: 4em;
+    }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 150px;
+        padding-bottom: 1px;
+    }
+
+    #about-me {
+        padding: 0 1em;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em 3em;
+    }
+}
+
+/*===================LAPTOP MEDIA QUERY==================*/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 3em 1em;
+        padding-top: 6em;
+        padding-bottom: 6em;
+        padding-left: 4em;
+        padding-right: 8em;
+    }
+
+    #terminal-gif {
+        height: 300px;
+        width: 700px;
+        margin-top: 1em;
+    }
+
+    .name-occupation, #bio-container {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #introduction {
+        display: block;
+        width: 50%;
+        float: left;
+    }
+
+    #contact-me {
+        display: block;
+        align-items: flex-start;
+        margin-top: 3px;
+        float: left;
+    }
+
+    #contact-me>h4 {
+        font-size: xx-large;
+    }
+}
+
+/*===================END OF MEDIA QUERIES==================*/
