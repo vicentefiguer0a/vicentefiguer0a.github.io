@@ -10,6 +10,12 @@
     .bio {
         width: 100%;
     }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 125px;
+        padding-bottom: 1px;
+    }
 }
 
 /*===================MOBILE MD MEDIA QUERY==================*/
@@ -20,6 +26,12 @@
         width: 340px;
         margin-top: 1em;
     }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 125px;
+        padding-bottom: 1px;
+    }
 }
 
 /*===================MOBILE SM MEDIA QUERY==================*/
@@ -29,6 +41,12 @@
         height: 200px;
         width: 300px;
         margin-top: 1em;
+    }
+
+    .about-header {
+        border-bottom: solid 2px lime;
+        width: 125px;
+        padding-bottom: 1px;
     }
 }
 
