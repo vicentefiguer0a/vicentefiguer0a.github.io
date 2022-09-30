@@ -35,7 +35,7 @@ ul {
     display: flex;
     flex-direction: row;
     margin: auto;
-    padding: 8em 0;
+    padding: 4em 0;
 }
 
 /*==========================MAIN CONTENT CSS===========================*/
@@ -112,6 +112,19 @@ footer{
     #contact-me {
         margin-left: 1em;
     }
+
+    .project-nav-link {
+        padding: 0 1em;
+    }
+
+    .coming-soon {
+        display: flex;
+        flex-direction: row;
+        margin: 6em auto 16em;
+        height: 250px;
+        width: 270px;
+        padding: 4em 0;
+    }
 }
 
 /*===================MOBILE MD MEDIA QUERY==================*/
@@ -136,6 +149,19 @@ footer{
 
     #contact-me {
         margin-left: 1em;
+    }
+
+    .project-nav-link {
+        padding: 0 1em;
+    }
+
+    .coming-soon {
+        display: flex;
+        flex-direction: row;
+        margin: 5em auto 15em;
+        height: 280px;
+        width: 320px;
+        padding: 4em 0;
     }
 }
 
@@ -165,6 +191,19 @@ footer{
 
     #contact-me {
         margin-left: 1em;
+    }
+
+    .project-nav-link {
+        padding: 0 1em;
+    }
+
+    .coming-soon {
+        display: flex;
+        flex-direction: row;
+        margin: 4em auto 15em;
+        height: 300px;
+        width: 360px;
+        padding: 4em 0;
     }
 }
 
@@ -207,6 +246,19 @@ footer{
         justify-content: space-between;
         align-items: center;
         margin: 1em 3em;
+    }
+
+    .project-nav-link {
+        padding: 0 1em;
+    }
+
+    .coming-soon {
+        display: flex;
+        flex-direction: row;
+        margin: 2em auto 14em;
+        height: 350px;
+        width: 500px;
+        padding: 4em 0;
     }
 }
 
@@ -286,6 +338,14 @@ footer{
         height: 20px;
         width: 20px;
     }
+
+    .coming-soon {
+        display: flex;
+        flex-direction: row;
+        margin: 2em auto 10em;
+        height: 380px;
+        width: 550px;
+    }
 }
 
 /*===================LAPTOP L MEDIA QUERY==================*/
@@ -298,8 +358,8 @@ footer{
         margin: 3em 1em;
         padding-top: 4em;
         padding-bottom: 6em;
-        padding-left: 20em;
-        padding-right: 30em;
+        padding-left: 18em;
+        padding-right: 20em;
     }
 
     .about-header {
@@ -361,5 +421,9 @@ footer{
     .footer-icon {
         height: 20px;
         width: 20px;
+    }
+
+    .coming-soon {
+
     }
 }
