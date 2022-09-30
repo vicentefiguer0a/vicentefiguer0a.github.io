@@ -31,6 +31,13 @@ ul {
     margin-top: 1em;
 }
 
+.coming-soon {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 8em 0;
+}
+
 /*==========================MAIN CONTENT CSS===========================*/
 
 main {
@@ -300,7 +307,7 @@ footer{
         width: 170px;
         padding-top: 2em;
         padding-bottom: 1px;
-        margin: 1em 6.8em;
+        margin: 1em 8.8em;
     }
 
     #about-me {
